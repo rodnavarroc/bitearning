@@ -11,25 +11,26 @@
 <body style="font-family: Open Sans;">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger" style="font-family: Raleway;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light" style="font-family: Raleway;">
     <div class="container">
-      <a class="navbar-brand" href="index.php">Bit Learning &nbsp;</a>
+      <img src="https://i.imgur.com/XI5OONv.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <a class="navbar-brand text-dark" href="index.php">&nbsp;Bit Learning</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#inicio"><i class="fas fa-home"></i>&nbsp;Inicio</a>
+            <a class="nav-link text-dark" href="#inicio"><i class="fas fa-home"></i>&nbsp;Inicio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#about"><i class="far fa-question-circle"></i>&nbsp;¿Quienes somos?</a>
+            <a class="nav-link text-dark" href="#about"><i class="far fa-question-circle"></i>&nbsp;¿Quienes somos?</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#contacto"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
+            <a class="nav-link text-dark" href="#contacto"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="ccna.php"><i class="fas fa-server"></i>&nbsp;Curso CCNA</a>
+            <a class="nav-link text-dark" href="ccna.php"><i class="fas fa-server"></i>&nbsp;Curso CCNA</a>
           </li>
         </ul>
     </div>
@@ -40,57 +41,62 @@
   </div>
 
   <!-- Page Content -->
-  <div class="container" style="padding-top: 100px;" id="inicio">
+  <div class="container-fluid text-light" style="padding-top: 150px;" id="inicio">
     <div class="row">
-      <div class="col-12" style="padding-top: 12%;">
+      <div class="col-12 bgDark" style="padding-top: 5%;">
         <center><h3>¡Bienvenido/a!</h3></center>
-        <center><h5>En BitLearning te capacitamos para aumentar tu valor curricular</h5></center><br><br>
+        <center><h5>En &nbsp;<img src="https://i.imgur.com/g2Wcm2s.png" class="bitLearning">&nbsp; te capacitamos para aumentar tu valor curricular</h5></center><br>
         <center><h4>¿Por qué elegirnos?</h4></center>
         <br>
       </div>
     </div>
-    <div class="row p-3 pt-5">
+    <div class="row p-3 pt-5 bgDark">
       <div class="col-4">
         <center>
-          <i class="fas fa-book" style="font-size: 48px; color: #CFB53B;"></i><br><br>
+          <i class="fas fa-code-branch" style="font-size: 48px; color: #CFB53B;"></i><br><br>
           <label>Plan Educativo basado en CISCO</label>
         </center>
       </div>
       <div class="col-4">
         <center>
-          <i class="fas fa-user-check" style="font-size: 48px; color: #CFB53B;"></i><br><br>
+          <i class="fas fa-chalkboard-teacher" style="font-size: 48px; color: #CFB53B;"></i><br><br>
           <label>Instructores Certificados</label>
         </center>
       </div>
       <div class="col-4">
         <center>
-          <i class="fas fa-money-check-alt" style="font-size: 48px; color: #CFB53B;"></i><br><br>
+          <i class="fas fa-user-graduate" style="font-size: 48px; color: #CFB53B;"></i><br><br>
           <label>Facilidades de pago</label>
         </center>
       </div>
     </div>
-    <div class="row p-3 pt-5">
+    <div class="row p-3 pt-5 bgDark">
       <div class="col-4">
         <center>
-          <i class="fas fa-briefcase" style="font-size: 48px; color: #CFB53B;"></i><br><br>
+          <i class="fas fa-globe" style="font-size: 48px; color: #CFB53B;"></i><br><br>
           <label>Bolsa de Trabajo para alumnos</label>
         </center>
       </div>
       <div class="col-4">
         <center>
-          <i class="fas fa-map-marker-alt" style="font-size: 48px; color: #CFB53B;"></i><br><br>
+          <i class="fas fa-street-view" style="font-size: 48px; color: #CFB53B;"></i><br><br>
           <label>Ubicación céntrica</label>
         </center>
       </div>
       <div class="col-4">
         <center>
-          <i class="fas fa-server" style="font-size: 48px; color: #CFB53B;"></i><br><br>
+          <i class="fas fa-cubes" style="font-size: 48px; color: #CFB53B;"></i><br><br>
           <label>Equipo para practicar</label>
         </center>
       </div>
     </div>
-    <br><br>
-    <div class="d-none d-sm-block"><center><a href="#about" class="btn btn-outline-dark btn-lg">Conoce más</a></center></div>
+    <div class="row p-3 bgDark">
+        <div class="col-12">
+          <div class="d-none d-sm-block">
+            <br><center><a href="#contacto" class="btn btn-warning btn-lg">Inscribirme</a></center><br><br>
+          </div>
+        </div>
+    </div>
   </div>
 
   <div style="padding-top: 13%;"></div>
@@ -98,12 +104,12 @@
     <div class="row">
       <h3 style="font-family: Raleway;">¿Quiénes somos?</h3>
       <div class="col-12 col-md-8 mx-auto">
-        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="text-align: justify;">
+          BitLearning surge como un centro de capacitación con el objetivo de preparar a sus alumnos para alcanzar la certificación CCNA 200-125 R&S.
+          Los instructores que imparten clases están certificados y cuentan con experiencia en campo que les da un amplio panorama para capacitar a los alumnos.
+          <br><br>
+          Al estar en actividad laboral tenemos contactos que nos solicitan prospectos para puestos de Ingeniero CCNA, a lo cual nosotros recomendamos alumnos.
+        </p>
       </div>
     </div>
   </div>
@@ -111,12 +117,10 @@
     <div class="row">
       <h3 style="font-family: Raleway;">¿Cómo son <br>nuestras clases?</h3>
       <div class="col-12 col-md-8 mx-auto">
-        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="text-align: justify;">
+          El curso empieza principalmente teórico, empezando con las bases que se necesitan para entender los temas de Routing & Switching, conforme avanza el curso se van incluyendo ejercicios y prácticas de laboratorio en simulación, una vez que se ha dominado teoría y práctica en simulación se continua el aprendizaje con equipos físicos, en la mayoría de las clases hay tareas para complementar el aprendizaje. Se les entrega material didáctico en físico como guía de comandos esenciales y conceptos muy importantes para apoyo en clase.<br><br> 
+          En nuestras clases aprenderás desde qué es una IR una máscara de subred, como subnetear, como funciona el internet y las comunicaciones en general hasta llegar a configurar e implementar protocolos tales como OSPF, EIGRR BGR ACes, Spanning-Tree, Port-security, VTP, Etherchannel, etc. 
+        </p>
       </div>
     </div>
   </div>
@@ -124,18 +128,13 @@
     <div class="row">
       <h3 style="font-family: Raleway;">¿A que estamos<br>comprometidos?</h3>
       <div class="col-12 col-md-8 mx-auto">
-        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="text-align: justify;">Nos comprometemos a preparar al alumno para que pueda obtener su certificación CCNA al término del curso, pero no solo eso, sino que incluso aunque todavía no se certifiquen tengan los conocimientos teórico-prácticos que se solicitan en el mundo laboral e incrementen su valor curricular al darles la capacidad de operar, administrar e implementar proyectos que involucran a tecnologias Cisco a nivel CCNA.</p>
       </div>
     </div>
   </div>
-  <div class="container text-dark p-5" id="contacto">
+  <div class="container-fluid text-dark p-5 bg-white" id="contacto">
     <div class="row">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 mx-auto">
         <h3 style="font-family: Raleway;">Ponte en contacto</h3><br>
         <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam,
@@ -213,12 +212,42 @@
   font-size: 17px;
 }
 
-body {
-  background-image: url("https://i.imgur.com/TR1mM8w.png");
+@media only screen and (min-device-width : 640px) {
+  .bgDark
+  {
+    background-color: rgba(0,0,0,0.850);
+  }
+
+  .bitLearning
+  {
+    width: 10%;
+  }
+
+  body {
+  background-image: url("https://i.imgur.com/YVbgiDg.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  }
 }
+
+@media only screen and (max-device-width : 640px) {
+  .bgDark
+  {
+    background-color: transparent;
+    color: #101010;
+  }
+
+  .bitLearning
+  {
+    width: 50%;
+  }
+
+  body {
+  background-color: white;
+  }
+}
+
 </style>
 </html>
