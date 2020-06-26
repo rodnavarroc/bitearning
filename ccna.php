@@ -11,25 +11,26 @@
 <body style="font-family: Open Sans;">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-danger" style="font-family: Raleway;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light" style="font-family: Raleway;">
     <div class="container">
-      <a class="navbar-brand" href="index.php">Bit Learning &nbsp;</a>
+      <img src="https://i.imgur.com/XI5OONv.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <a class="navbar-brand text-dark" href="index.php">&nbsp;Bit Learning</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.php#inicio"><i class="fas fa-home"></i>&nbsp;Inicio</a>
+            <a class="nav-link text-dark" href="#inicio"><i class="fas fa-home"></i>&nbsp;Inicio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.php#about"><i class="far fa-question-circle"></i>&nbsp;¿Quienes somos?</a>
+            <a class="nav-link text-dark" href="#about"><i class="far fa-question-circle"></i>&nbsp;¿Quienes somos?</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.php#contacto"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
+            <a class="nav-link text-dark" href="#contacto"><i class="fas fa-phone-alt"></i>&nbsp;Contacto</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="ccna.php"><i class="fas fa-server"></i>&nbsp;Curso CCNA</a>
+            <a class="nav-link text-dark" href="ccna.php"><i class="fas fa-server"></i>&nbsp;Curso CCNA</a>
           </li>
         </ul>
     </div>

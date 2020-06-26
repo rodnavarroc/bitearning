@@ -136,12 +136,10 @@
     <div class="row">
       <div class="col-12 col-md-6 mx-auto">
         <h3 style="font-family: Raleway;">Ponte en contacto</h3><br>
-        <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. <br><br>Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="text-align: justify;">
+          BitLearning ha analizado lo que necesita la gente para poder certificarse en CCNA, por lo que sabemos que es fundamental contar con instructores comprometidos con el aprendizaje de los alumnos que además de exponer los temas que propone CISCO los enriquezca con ejemplos de escenarios de la vida real.<br><br>
+          Esto permite darle un plus al curso que no solo te ayudará a tu certificación si no que además te ayudará a darte un mayor valor curricular y más seguridad en entrevistas laborales donde evalúen la capacidad técnica del certificado.
+        </p>
         <hr>
         <label><i class="fas fa-at"></i>&nbsp;<b>Correo electrónico: </b>info@bitlearning.com.mx</label><br>
         <label><i class="fab fa-facebook-f"></i>&nbsp;<b>Facebook: </b>BitLearning</label><br>
